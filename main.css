@@ -1,0 +1,23 @@
+h1::after{
+    content: url("./img/countries.svg");
+    
+  }
+  
+  button:hover{
+   color: #fff;
+   background-color:yellowgreen;
+   
+  }
+  input::placeholder{
+   font-weight: 500px;
+   color: #000000;
+  }
+  
+  body{
+    background-color: slate;
+  }
+  
+  .country-list{
+    display: flex;
+    justify-content: space-between;
+  }
